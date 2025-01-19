@@ -36,3 +36,9 @@ You do a commit, which takes the files as they are in the staging area and store
 
 If a particular version of a file is in the Git directory, it’s considered committed. If it has been modified and was added to the staging area, it is staged. And if it was changed since it was checked out but has not been staged, it is modified. In Git Basics, you’ll learn more about these states and how you can either take advantage of them or skip the staged part entirely.
 In Git, "origin" is the default name given to the remote repository from which your local repository was cloned. You can push your changes to this remote repository using the git push origin command.
+What Is a Local Repository?
+A local repository is the version of your project that exists on your computer.
+It includes:
+The working directory (your current project files).
+The staging area (files prepared for commit).
+The commit history (saved snapshots of your project).
